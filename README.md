@@ -23,6 +23,7 @@
 ## Details
 * ลง podcast
 * สัปดาห์ละครั้งพอ
+* [Outline](outline.md)
 
 ## ตัวอย่าง Topics
 
