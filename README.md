@@ -47,6 +47,13 @@
 * วิธีทำให้เจ้านายรักเรา
 * ปรับองค์กรณ์ให้เป็น data company ด้วย Kafka → พูดถึง kafka พอ
 
+## ทีมสัมภาษณ์
+สนใจมาสัมภาษณ์ติดต่อทีม
+* [Beau](https://www.facebook.com/BeaubabyPhisinee)
+* [Mahasak](https://www.facebook.com/mahasak.pijittum)
+* [NuBoat](https://www.facebook.com/nuboat)
+* [Roofimon](https://www.facebook.com/roofimon.class)
+* [Varokas](https://www.facebook.com/varokas)
 
 ## Links
 * Anonymous Feedback
