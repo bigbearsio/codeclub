@@ -23,7 +23,7 @@
 ## Details
 * ลง podcast
 * สัปดาห์ละครั้งพอ
-* [Outline](outline.md)
+* [Outline](outline.md) ของการสัมภาษณ์
 
 ## ตัวอย่าง Topics
 
@@ -48,7 +48,7 @@
 * ปรับองค์กรณ์ให้เป็น data company ด้วย Kafka → พูดถึง kafka พอ
 
 ## ทีมสัมภาษณ์
-สนใจมาสัมภาษณ์ติดต่อทีม
+สนใจมาสัมภาษณ์ติดต่อทีม หลังอ่าน outline - [Outline](outline.md)
 * [Beau](https://www.facebook.com/BeaubabyPhisinee)
 * [Mahasak](https://www.facebook.com/mahasak.pijittum)
 * [NuBoat](https://www.facebook.com/nuboat)
