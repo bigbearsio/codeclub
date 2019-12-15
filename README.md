@@ -25,6 +25,10 @@
 * สัปดาห์ละครั้งพอ
 * [Outline](outline.md) ของการสัมภาษณ์
 
+## สนใจมาเป็น Guest
+* Create Issue หรือ ส่ง Pull Request มาที่ [guests.md]
+* หรือ Message ทีมสัมภาษณ์หลังอ่าน [Outline](outline.md)
+
 ## ตัวอย่าง Topics
 
 ### Accepted Topics
@@ -48,7 +52,6 @@
 * ปรับองค์กรณ์ให้เป็น data company ด้วย Kafka → พูดถึง kafka พอ
 
 ## ทีมสัมภาษณ์
-สนใจมาสัมภาษณ์ติดต่อทีม หลังอ่าน outline - [Outline](outline.md)
 * [Beau](https://www.facebook.com/BeaubabyPhisinee)
 * [Mahasak](https://www.facebook.com/mahasak.pijittum)
 * [NuBoat](https://www.facebook.com/nuboat)
