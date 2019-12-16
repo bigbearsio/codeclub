@@ -26,7 +26,7 @@
 * [Outline](outline.md) ของการสัมภาษณ์
 
 ## สนใจมาเป็น Guest
-* Create Issue หรือ ส่ง Pull Request มาที่ [guests.md]
+* Create Issue หรือ ส่ง Pull Request มาที่ [guests.md](guests.md)
 * หรือ Message ทีมสัมภาษณ์หลังอ่าน [Outline](outline.md)
 
 ## ตัวอย่าง Topics
