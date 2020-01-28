@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ## Run
 ```
 ./codeclub.py
-usage: codeclub <command> [<args>]
+usage: ./codeclub.py <command> [<args>]
         
 Commands:
 latest    Return latest episode number
