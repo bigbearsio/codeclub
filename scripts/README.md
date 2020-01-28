@@ -12,6 +12,13 @@ pip install -r requirements.txt
 ## Run
 ```
 ./codeclub.py
+usage: codeclub <command> [<args>]
+        
+Commands:
+latest    Return latest episode number
+links     Return latest episode links
 
-
+Command Helps:
+   ./codeclub.py [command] --help
+        
 ```
