@@ -1,14 +1,20 @@
 
 from bs4 import BeautifulSoup
 import requests
+import xml.etree.ElementTree as ET
 
-channels = ["Apple", "Google", "Spotify"]
+channels = ["Page", "Apple", "Google", "Spotify"]
 
 urls = {
+    "Page": "https://codeclub.bigbears.io/rss/",
     "Apple": "https://podcasts.apple.com/th/podcast/codeclub-podcast/id1485111503",
     "Google": "https://podcasts.google.com/?feed=aHR0cHM6Ly9jb2RlY2x1Yi5iaWdiZWFycy5pby9wb2RjYXN0L3Jzcy8",
     "Spotify": "https://open.spotify.com/show/7z1p407E9M7huVVqojLia1"
 }
+
+def _parse_page_links(xml_doc):
+    root = ET.fromstring(xml_doc)
+    return [e.text for e in root.findall("channel/item/link")]
 
 def _parse_apple_links(html_doc):
     soup = BeautifulSoup(html_doc, 'html.parser')
@@ -24,6 +30,7 @@ def _parse_spotify_links(html_doc):
     return [x["content"] for x in soup.select('meta[property="music:song"]') ] 
 
 parsers = {
+    "Page": _parse_page_links,
     "Apple": _parse_apple_links,
     "Google": _parse_google_links,
     "Spotify": _parse_spotify_links

@@ -12,3 +12,8 @@ class PodcastTest(unittest.TestCase):
         test_file = (os.path.dirname(__file__) + "/test_data/spotify.html")
         htmlContent = open(test_file).read()
         self.assertEqual("https://open.spotify.com/episode/3cm0w2ZElG9vHXUsGLCy87", podcast._parse_spotify_links(htmlContent)[0])
+
+    def test_parse_page_links(self):
+        test_file = (os.path.dirname(__file__) + "/test_data/rss.xml")
+        xmlContent = open(test_file).read()
+        self.assertEqual("https://codeclub.bigbears.io/ep-16-cucumber/", podcast._parse_page_links(xmlContent)[0])
