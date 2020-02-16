@@ -16,6 +16,11 @@
 ## How to upload
 1. Upload file to GCP Bucket
 2. https://console.cloud.google.com/storage/browser/codeclub-content?project=codeclub-podcast
+
+```
+gsutil cp ~/Music/Audio\ Hijack/EP\ 17\ -\ Phoenix.mp3 gs://codeclub-content/CodeClub-EP17-Phoenix.mp3
+```
+
 3. Create a post in ghost
   * tags - 'podcasts'
   * In 'Facebook Cards' add this link `https://codeclub-content.bigbears.io/{FileName}.mp3`
