@@ -25,3 +25,7 @@ gsutil cp ~/Music/Audio\ Hijack/EP\ 17\ -\ Phoenix.mp3 gs://codeclub-content/Cod
   * tags - 'podcasts'
   * In 'Facebook Cards' add this link `https://codeclub-content.bigbears.io/{FileName}.mp3`
   * Make sure file is MP3 for now
+
+## Debug 
+
+iTunes Podcast - https://codeclub.bigbears.io/podcast/rss/
